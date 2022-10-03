@@ -15,11 +15,12 @@
      cout << endl;
 
      cone.print();
+ 
 
      cout << "removing 2 "; cone.remove(2);
-     cout << endl;;
-
+     cout << endl;
      cone.print();
+     cout << endl;
 
      if (equal(cone, cone)) {
          cout << "cone list is equal to itself" << endl;
