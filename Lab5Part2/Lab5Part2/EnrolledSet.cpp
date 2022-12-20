@@ -114,6 +114,7 @@ void printRoster(const set<Student>& roster) {
         cout << endl;
     }
 }
+//removing dropouts from roster
 void removeDropouts(set<Student>& dropouts, set<Student>& roster) {
     for (auto student : dropouts) {
         auto it = roster.find(student);

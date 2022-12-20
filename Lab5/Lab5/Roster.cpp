@@ -118,6 +118,7 @@ void readRoster(map<Student, list<string>>& roster, string fileName) {
 
 }
 
+//removing droupouts from the roster
 void removeDropouts(map<Student, list<string>>& roster) {
     bool increment = true;
     for ( auto it = roster.begin(); it != roster.end();) {
